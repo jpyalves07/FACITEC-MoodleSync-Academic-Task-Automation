@@ -1,0 +1,35 @@
+# ── Credenciais (NUNCA versionar) ─────────────────────────────────────────────
+.env
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Ambiente virtual ──────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Logs e temporários ────────────────────────────────────────────────────────
+logs/*.log
+logs/pagina_curso.html
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Testes ────────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
