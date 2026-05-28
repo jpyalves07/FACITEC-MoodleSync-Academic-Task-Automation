@@ -1,0 +1,12 @@
+# Automação web — scraping autenticado com Chrome
+selenium>=4.18.0
+
+# Gerenciador do ChromeDriver — baixa APENAS o driver, não o Chrome
+# Detecta a versão do Chrome instalada e baixa o driver compatível automaticamente
+webdriver-manager>=4.0.0
+
+# Variáveis de ambiente — carregamento do .env
+python-dotenv>=1.0.0
+
+# Requisições HTTP — integração com a API REST do Notion
+requests>=2.31.0
